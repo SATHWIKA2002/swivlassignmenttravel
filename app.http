@@ -1,0 +1,21 @@
+###
+
+GET http://localhost:5002/users/:id
+###
+
+GET http://localhost:5002/users/
+###
+
+POST http://localhost:5002/users
+Content-Type: application/json
+
+
+{
+    "id": 4,
+    "username": "john",
+    "passord": "john@2342"
+}
+
+###
+GET http://localhost:5002/diaryentries
+###
